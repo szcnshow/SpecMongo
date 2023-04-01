@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AH.DeviceDriver.Share</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ArgumentBase.cs" />
+    <Compile Remove="ArgumentItem.cs" />
+    <Compile Remove="ComponentTree.cs" />
+    <Compile Remove="EnumArguments.cs" />
+    <Compile Remove="EnumComponentFunction.cs" />
+    <Compile Remove="EnumComponentNotify.cs" />
+    <Compile Remove="EnumComponentType.cs" />
+    <Compile Remove="EnumSpectrumDefines.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Arguments\" />
+  </ItemGroup>
+
+</Project>
